@@ -16,7 +16,10 @@ https://antonmarchitec.github.io/Componente_de_calificacion_interactivo/
 https://www.frontendmentor.io/
 
 
+## Frase del dia.
 “Al mundo no le importará tu autoestima. El mundo esperará que logres   algo, independientemente de que te sientas bien o no contigo mismo”.
 > Bill Gates
 
+
 ## Imagen del proyecto:
+
