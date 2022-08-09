@@ -20,5 +20,5 @@ https://www.frontendmentor.io/
 > Bill Gates
 
 ## Imagen del proyecto:
-![TARGET_18](https://user-images.githubusercontent.com/70084380/183565164-2ec43560-ef18-47e2-92d9-ad0e557cb7a6.jpg)
+![Screenshot (20220808-232722)](https://user-images.githubusercontent.com/70084380/183565268-9c620a85-5569-44e1-ae70-b3f55b5e5429.jpg)
 
