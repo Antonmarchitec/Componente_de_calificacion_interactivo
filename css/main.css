@@ -164,6 +164,28 @@ body, html {
     background: hsl(213deg, 19%, 18%);
     padding: 40px;
     border-radius: 20px;
+    box-shadow: 0px 2px 15px hsl(217deg, 12%, 63%);
+  }
+  .container .base {
+    width: 90%;
+    padding: 30px;
+    background: hsl(213deg, 19%, 18%);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px hsl(217deg, 12%, 63%);
+    text-align: center;
+    display: none;
+  }
+  .container .base_reverse_js {
+    display: block;
+    transition: 0.5s;
+  }
+}
+@media (min-width: 320px) and (max-width: 423px) {
+  .container .container_blockBase {
+    width: 90%;
+    background: hsl(213deg, 19%, 18%);
+    padding: 40px;
+    border-radius: 20px;
   }
 }
 

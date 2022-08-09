@@ -162,11 +162,46 @@
         display: block;
         transition: 0.5s;
     }
-
-
-
-
    
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+    .container{
+        
+        
+        
+        .container_blockBase{
+            width: 90%;
+            background: $Dark_Blue;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 2px 15px $Light_Grey;
+    
+    
+        }
+        
+    
+    
+        ///////reverse/////////////
+        /////////////////////////////////////@at-root
+        .base{
+            width: 90%;
+            padding: 30px;
+            background: $Dark_Blue;
+            border-radius: 15px;
+            box-shadow: 0px 2px 15px $Light_Grey;
+            text-align: center;
+            display: none;
+            
+        }
+        .base_reverse_js{
+            display: block;
+            transition: 0.5s;
+        }
+       
+    }
+    
 }
 
 
