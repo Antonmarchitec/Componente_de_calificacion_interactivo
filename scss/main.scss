@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;    //400   700
+    font-size: 15px;
+}
+
+
+body, html{
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+@import "colorFont";
+@import "styles";

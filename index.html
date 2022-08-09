@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--PERSONALIZADO LINK-->
+  <link rel="stylesheet" href="./css/main.css">
+
+
+
+  <title>Componente de calificación interactivo</title>
+</head>
+<body>
+
+  <main class="container">
+    <div class="container_blockBase" id="container_blockBase">
+    
+      <figure class="container_blockBase_icon">
+        <img src="./images/icon-star.svg" alt="star" style="width: 40%; height: 40%;">
+      </figure>
+
+      <h1 class="container_blockBase_title"> How did we do?</h1>
+
+      <p class="container_blockBase_parraf">
+         Please let us Know we did with your support
+         request. All feedback is appreciated to help us 
+         improve our offering! 
+      </p>
+
+      <div class="container_blockBase_blockC">
+        <div class="container_blockBase_blockC_circle" id="number_uno"> 1 </div>
+        <div class="container_blockBase_blockC_circle" id="number_dos"> 2 </div>
+        <div class="container_blockBase_blockC_circle" id="number_tres"> 3 </div>
+        <div class="container_blockBase_blockC_circle" id="number_cuatro"> 4 </div>
+        <div class="container_blockBase_blockC_circle" id="number_cinco"> 5 </div>
+      </div>
+
+      <button class="container_blockBase_button" id="buttom_submit"> SUBMIT </button>
+    
+    </div>
+
+    <!---reverse-------------------->
+    <div class="base" id="base_reverse">
+      <div class="base_img">
+        <img src="./images/illustration-thank-you.svg" alt="illustration" style="width:100%; height: 100%;">
+      </div>
+
+      <div class="base_request">
+        <p class="base_request_text">
+          You selected <span id="date"> 1 </span> out of 5
+        </p>
+      </div>
+
+      <h1 class="base_title">Tank you!</h1>
+
+      <p class="base_parrafo">
+        We appreciate you taking the time to give a rating.
+        if you ever need more support. dont hesitate to 
+        get in touch! 
+      </p>
+      <button type="button" class="buttom_return" id="buttom_return"> TO RETURN </button>
+    </div>
+
+
+  </main>
+  
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

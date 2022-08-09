@@ -1,0 +1,195 @@
+@import "colorFont";
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    background: $Very_Dark_Blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+    .container_blockBase{
+        width: 400px;
+        background: $Dark_Blue;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0px 2px 15px $Light_Grey;
+
+        .container_blockBase_icon{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: $Very;
+        }
+
+        .container_blockBase_title{
+            margin-top: 20px;
+            color: $White;
+            font-size: 20px;
+        }
+
+        .container_blockBase_parraf{
+            margin-top: 10px;
+            color: $Medium_Grey;
+            text-align: justify;
+        }
+
+        .container_blockBase_blockC{
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .container_blockBase_blockC_circle{
+                width: 40px;
+                height: 40px;
+                background:$Very;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $Light_Grey;
+                border-radius: 50%;
+                transition: 0.5s ease-in;
+            }
+            .container_blockBase_blockC_circle:hover{
+                background: $color_orange;
+                color: $White;
+                cursor: pointer;
+            }
+            .push{
+                background: $color_orange;
+                color: $White;
+                cursor: pointer;
+            }
+        }
+      
+        .container_blockBase_button{
+            margin-top: 20px;
+            width: $width_bottom;
+            padding: $padding;
+            background: $background;
+            color: $color;
+            border: $border;
+            border-radius: $border-radius;
+            transition:$transition;
+        }
+
+        .container_blockBase_button:hover{
+            background: $White;
+            color: $color_orange;
+            cursor: pointer;
+        }
+
+    }
+    .container_blockBase_js{
+        display: none;
+    }
+
+
+    ///////reverse/////////////
+    /////////////////////////////////////@at-root
+    .base{
+        width: 400px;
+        padding: 30px;
+        background: $Dark_Blue;
+        border-radius: 15px;
+        box-shadow: 0px 2px 15px $Light_Grey;
+        text-align: center;
+        display: none;
+        .base_img{
+            width: 200px;
+            height: 150px;
+            margin: auto;
+        }
+
+        .base_request{
+            margin: 20px auto;
+            width: 200px;
+            padding: 10px;
+            background: $Very;
+            border-radius: 20px;
+            .base_request_text{
+                color: $color_orange;
+                text-align: center;
+                font-weight: 400;
+                font-style: normal;
+                #date{
+                    color: $White;
+                    font-weight: 800;
+                    font-size: 20px;
+                }
+            }
+            
+        }
+
+        .base_title{
+            margin-top: 20px;
+            font-size: 25px;
+            font-weight: 400;
+            color: $White;
+        }
+
+        .base_parrafo{
+            margin-top: 10px;
+            color: $Medium_Grey;
+        }
+        .buttom_return{
+            margin-top: 20px;
+            width: $width_bottom;
+            padding: $padding;
+            background: $background;
+            color: $color;
+            border: $border;
+            border-radius: $border-radius;
+            transition:$transition;
+        }
+        .buttom_return:hover{
+            background: $White;
+            color: $color_orange;
+            cursor: pointer;
+        }
+    }
+    .base_reverse_js{
+        display: block;
+        transition: 0.5s;
+    }
+
+
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .container{
+       ///////////
+        .container_blockBase{
+            width: 90%;
+            background: $Dark_Blue;
+            padding: 40px;
+            border-radius: 20px;
+        }
+    }
+}
