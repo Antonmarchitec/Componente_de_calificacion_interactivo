@@ -22,5 +22,7 @@ https://www.frontendmentor.io/
 
 
 ## Imagen del proyecto:
+![TARGET_19](https://user-images.githubusercontent.com/70084380/183566485-934a6c5e-2e0b-4746-9890-2a820c1d3f3a.jpg)
+
 
 
